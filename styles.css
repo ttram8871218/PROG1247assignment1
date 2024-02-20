@@ -1,3 +1,133 @@
+html{ 
+    font: 20px/1.5 'Helvetica', sans-serif;
+}
+
+h1, h2 { /*making small caps in headers */
+    font-variant: small-caps;
+}
+
+figcaption { /*small caps in captions for photos*/
+    font-weight: bold;
+    font-variant: small-caps;
+    font-size: 1.2rem;
+}
+
+q {
+    font-style: italic;
+    font-family: 'cursive', sans-serif;
+    font-size: 1.2rem;
+}
+
+footer p {
+    font-size: 0.9rem;
+}
+
+body {
+    width: 80%;
+    max-width: 1200px;
+}
+
+.main-section-figure img {
+    width: 100%;
+    height: auto; /* Maintain aspect ratio by automatically adjusting height */
+    padding: 0.5rem;
+}
+
+.main-section-figure {
+    width: 80%;
+    height: auto;
+}
+
+video {
+    width: 100%;
+    height: auto;
+}
+
 body {
     background-color: lightblue;
+    padding: 2rem; 
+    margin: 0 auto;
+}
+
+header, footer {
+    text-align: center;
+    border: 2px solid #FFC0CB;
+}
+
+.mainsection {
+    text-align: center;
+    padding: 1.5rem;
+}
+
+#bio { /*align biography to left */
+    text-align: left;
+}
+
+.main-section-figure img {
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+}
+
+.main-section-figure {
+    padding: 1rem;
+    margin: 1rem auto;
+}
+
+#quote {
+    padding: 0.5rem;
+}
+
+video {
+    padding: 0.3rem;
+}
+
+#relative-path-image {
+    border: 2px solid rgb(0, 128, 0);
+    border-radius: 0.3rem;
+}
+
+#absolute-path-image {
+    border: 3px solid rgb(0,0,255);
+    border-radius: 0.4rem;
+}
+
+video {
+    border: 2px solid rgb(255, 0, 0);
+}
+
+#quote {
+    border: 2px solid #f90;
+    box-shadow: 5px 5px 5px #008080;
+}
+
+video {
+    border: 3px solid #639;
+}
+
+#relative-path-image figcaption {
+    color: #3458db;
+}
+
+#absolute-path-image figcaption {
+    color: #00f;
+}
+
+h1, h2 {
+    color: darkcyan;
+}
+
+header, footer {
+    background-image: linear-gradient(rgba(255,0,0,1), rgba(0, 255,106,1));
+}
+
+.mainsection {
+    background-color: hsla(300, 37%, 53%, 0.5);
+}
+
+#absolute-path-image {
+    background-color: hsla(210, 80%, 60%, 0.7);
+}
+
+#relative-path-image {
+    background-color: hsla(60, 80%, 70%, 0.7);
 }

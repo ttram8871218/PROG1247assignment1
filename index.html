@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE html> 
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -6,26 +6,66 @@
     <title>Elon Musk</title>
     <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
-<main>
-    <body>
-    <h1>Elon Musk</h1>
-    <h2>stuff about him</h2>
-    <p>In 1990, he entered Queen's University in Kingston, Ontario. Two years later, he transferred to the University of 
-    Pennsylvania, an Ivy League university in Philadelphia, where 
-    he earned two degrees, a Bachelor of Arts in physics, and a Bachelor of Science
-    degree in economics from the university's Wharton School.
-    </p>
+<body>
+    <!--Header Section-->
+    <header>
+          <h1>Elon Musk</h1>
+    </header>
+  <main class="mainsection">
+    <!-- Section 1: description-->
+    <section class="mainsection">
+        <h2>Biography</h2>
+        <blockquote id="bio" cite="https://www.britannica.com/biography/Elon-Musk">
+            <p>
+                <b>Elon Musk</b> (born June 28, 1971, Pretoria, South Africa) South African-born 
+                American entrepreneur who cofounded the electronic-payment firm <strong>PayPal and formed SpaceX</strong>, maker of launch vehicles and spacecraft. He was 
+                also one of the first significant investors in, as well as 
+                chief executive officer of, the electric car manufacturer Tesla. In addition, Musk acquired Twitter (later X) in 2022.
+            </p>
+        </blockquote>
+    </section>
+   
+    <!--Section 2: photos-->
+    <section class="mainsection">
+        <h2>Images</h2>
+        <figure class="main-section-figure" id="absolute-path-image">
+            <img src="photos/Elon_Musk.jpg" alt="Absolute Image">
+            <figcaption>Lovely Photo of Elon Musk</figcaption>
+        </figure>
 
-    <figure>
-        <img src="photos/Elon_Musk.jpg" alt="Picture of elon1">
-    </figure>
+        <figure class="main-section-figure" id="relative-path-image">
+            <img src="photos/elon2.png" alt="Relative Image">
+            <figcaption>Lovely photo of elon musk as a painting</figcaption>
+        </figure>
+    </section>
 
-    <figure>
-        <img src="photos/elon2.png" alt="Picture of elon2">
-    </figure>
-    <h2>quote</h2>
-    <p>"Life is too short for long-term grudges."</p>
-    <h2>video</h2>
-    </body>
-</main>
+    <!--Section 3: quote-->
+    <section class="mainsection">
+        <h2>Quote</h2>
+        <blockquote class="mainsection" id="quote" cite="https://www.brainyquote.com/quotes/elon_musk_567256">
+            <q>
+                "Some people don't like change, but you need to embrace change if the alternative is disaster."
+            </q>
+            <br>
+            <cite>Elon Musk, N.D</cite>
+        </blockquote>
+    </section>
+    
+    <!--Section 4: video-->
+    <section class="mainsection">
+        <h2>video</h2>
+        <video width="640" height="360" controls>
+            <source src="videos/elon.mp4" type="video/mp4">
+            Your broswer does not support the video tag.
+        </video>
+    </section>
+ 
+    </main>
+
+    <!--Footer Section-->
+    <footer>
+        <p>&copy; Timmy Tram, 2024</p>
+    </footer>
+</body>
+
 </html>
