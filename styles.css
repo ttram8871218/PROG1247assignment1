@@ -78,7 +78,7 @@ header, footer {
 }
 
 video {
-    padding: 0.3rem;
+    padding: 0.1rem;
 }
 
 #relative-path-image {
@@ -101,6 +101,7 @@ video {
 }
 
 video {
+    padding: 0.4rem;
     border: 3px solid #639;
 }
 
